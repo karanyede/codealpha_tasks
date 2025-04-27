@@ -1,0 +1,98 @@
+/* src/App.css */
+.App {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.App-header {
+  background-color: #2c3e50;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.main-content {
+  display: flex;
+  gap: 20px;
+}
+
+.rooms-section {
+  flex: 2;
+}
+
+.booking-section {
+  flex: 1;
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.room-item {
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  padding: 15px;
+  border-radius: 5px;
+  list-style-type: none;
+}
+
+.room-item:hover {
+  background-color: #f9f9f9;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+.error {
+  color: red;
+  margin: 10px 0;
+}
+
+.success-message {
+  color: green;
+  font-weight: bold;
+}
+
+.user-section {
+  margin-bottom: 20px;
+}
+
+.reservations-section {
+  margin-top: 30px;
+}
+
+.reservation-item {
+  background-color: #e8f4f8;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  list-style-type: none;
+}
